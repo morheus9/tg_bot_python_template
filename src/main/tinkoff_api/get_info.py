@@ -7,9 +7,7 @@ TOKEN = os.environ["TINKOFF_TOKEN"]
 
 def main():
     with Client(TOKEN) as client:
-        statuses = client.market_data.get_trading_statuses(
-            instrument_ids=["BBG004730N88"]
-        )
+        statuses = client.market_data.get_last_prices(instrument_id=["BBG004730N88"])
         print(statuses)
 
 
