@@ -9,6 +9,7 @@ def main():
     with Client(TOKEN) as client:
         statuses = client.market_data.get_last_prices(instrument_id=["BBG004730N88"])
         print(statuses)
+    return statuses
 
 
 if __name__ == "__main__":
