@@ -6,7 +6,7 @@ authors = ["Vyacheslav <nodegopher@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11.9"
 aiogram = "^3.3.0"
 tinkoff-investments = "^0.2.0b97"
 
