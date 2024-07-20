@@ -1,4 +1,3 @@
-# tg_bot_trading
 
 sudo nano /etc/environment
 
